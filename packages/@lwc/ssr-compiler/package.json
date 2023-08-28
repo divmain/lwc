@@ -1,0 +1,36 @@
+{
+    "name": "ssr-compiler",
+    "version": "0.1.0",
+    "main": "index.js",
+    "author": "Dale Bustad <dale@divmain.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch --preserveWatchOutput  --incremental"
+    },
+    "devDependencies": {
+        "rollup-plugin-typescript": "^1.0.1"
+    },
+    "dependencies": {
+        "@babel/core": "^7.18.13",
+        "@babel/plugin-proposal-class-properties": "^7.18.6",
+        "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+        "@lwc/babel-plugin-component": "2.23.3",
+        "@lwc/compiler": "2.23.3",
+        "@lwc/engine-server": "2.23.3",
+        "@lwc/module-resolver": "2.23.3",
+        "@lwc/rollup-plugin": "2.23.3",
+        "@lwc/template-compiler": "2.23.3",
+        "@rollup/plugin-commonjs": "^22.0.2",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@rollup/plugin-replace": "^4.0.0",
+        "@rollup/pluginutils": "^4.2.1",
+        "@types/babel__core": "^7.1.19",
+        "@types/prettier": "^2.7.0",
+        "lwc": "2.23.0",
+        "parse5": "^6.0.1",
+        "prettier": "^2.7.1",
+        "rollup": "^2.76.0"
+    }
+}
